@@ -175,3 +175,190 @@ footer{
     font-size: 16px;
 }
 
+/* Initially hide the hamburger icon on larger screens */
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+  }
+  
+/* Tablet Responsive Styles for 768px x 698px */
+@media screen and (max-width: 768px) and (max-height: 698px) {
+    /* Adjust overall container spacing */
+    .container {
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+  
+    /* Header adjustments: keep the logo and navigation in a row but allow wrapping if needed */
+    .wrapper {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    /* Allow the navigation list to wrap and center its items */
+    .menu-icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 4px;
+    }
+
+    .list{
+        display: none;
+    }
+    
+    
+    /* Hero Section: Stack the image and text vertically for better readability */
+    .part1 {
+      flex-direction: column;
+      gap: 24px;
+      margin: 24px 0;
+      padding: 0 12px;
+    }
+    
+    /* Make the hero image responsive */
+    .part1 img {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* Center the hero text */
+    .text1 {
+      text-align: center;
+      padding: 0 8px;
+    }
+    
+    /* Adjust the heading size for tablets */
+    h1 {
+      font-size: 32px;
+    }
+    
+    /* Adjust the call-to-action button */
+    .btn1 {
+      padding: 8px 12px;
+      font-size: 16px;
+    }
+    
+    /* Adjust the call-to-action card (part2) */
+    .part2 {
+      padding: 24px 0;
+      margin-bottom: 24px;
+    }
+    
+    /* Cards Section: Allow cards to wrap in a flexible layout */
+    .card-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
+    
+    /* Display cards in two columns (or one if space is limited) */
+    .card {
+      flex: 1 1 45%;
+      max-width: 45%;
+      margin: 8px;
+    }
+    
+    /* Footer adjustments for a balanced look */
+    footer {
+      padding: 24px 0;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 425px) and (max-height: 698px) {
+    /* Adjust overall container spacing */
+    .container {
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+  
+    /* Header adjustments: keep the logo and navigation in a row but allow wrapping if needed */
+    .wrapper {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    /* Allow the navigation list to wrap and center its items */
+    .menu-icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 4px;
+    }
+
+    .list{
+        display: none;
+    }
+    
+    
+    /* Hero Section: Stack the image and text vertically for better readability */
+    .part1 {
+      flex-direction: column;
+      gap: 24px;
+      margin: 24px 0;
+      padding: 0 12px;
+    }
+    
+    /* Make the hero image responsive */
+    .part1 img {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* Center the hero text */
+    .text1 {
+      text-align: center;
+      padding: 0 8px;
+    }
+    
+    /* Adjust the heading size for tablets */
+    h1 {
+      font-size: 32px;
+    }
+    
+    /* Adjust the call-to-action button */
+    .btn1 {
+      padding: 8px 12px;
+      font-size: 16px;
+    }
+    
+    /* Adjust the call-to-action card (part2) */
+    .part2 {
+      padding: 24px 0;
+      margin-bottom: 24px;
+    }
+    
+    /* Cards Section: Allow cards to wrap in a flexible layout */
+    .card-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
+    
+    /* Display cards in two columns (or one if space is limited) */
+    .card {
+      flex: 1 1 100%;
+      max-width: 100%;
+      margin: 8px;
+    }
+    
+    /* Footer adjustments for a balanced look */
+    footer {
+      padding: 24px 0;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  
+  
+
+
+  
+
