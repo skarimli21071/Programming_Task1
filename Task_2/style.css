@@ -113,7 +113,6 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 58px;
 }
 
 .col{
@@ -130,7 +129,7 @@ h1{
   flex-direction: column; /* Arrange children vertically */
   justify-content: space-between; /* Space out the top and bottom sections */
   flex: 1;
-  max-width: 312px;
+  width: 312px;
   border: 1px solid lightgray;
   background-color: white;
 
